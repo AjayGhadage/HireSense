@@ -1,0 +1,138 @@
+Rank and score these candidates for the job. Use the pre-computed semantic skill match as a strong signal. Include behavioral signals (e.g. response rate, notice days) in your overall feedback.
+
+
+Job: Mobile App Developer (React Native)
+Description: Help build and ship the HireSense candidate appraisal and recruiter notification mobile applications using React Native for both iOS and Android.
+Required Skills: React Native, iOS, Android, TypeScript
+Experience: 3+ years
+Education: Degree in Software Engineering or equivalent experience
+
+
+Candidates:
+
+---
+Candidate ID: 10091
+Skills: Tailwind, NLP, Image Classification, Fine-tuning LLMs, Weights & Biases, Speech Recognition, Photoshop, TTS, LoRA, Apache Beam
+Exp: 6.9y, Edu: B.E.
+Semantic Match: 0.0%
+- Notice: 60d, Resp: 34%, Active: 2026-05-20
+Summary: Software / data professional with 6.9 years of experience building data pipelines, backend systems, 
+
+---
+Candidate ID: 10092
+Skills: Project Management, React, Photoshop, TypeScript, Marketing, Kafka, JavaScript, Feature Engineering, GCP
+Exp: 12.5y, Edu: B.Sc
+Semantic Match: 35.4%
+- Notice: 60d, Resp: 28%, Active: 2025-11-12
+Summary: Professional with 12.5+ years of experience. My professional background is in marketing manager — I'
+
+---
+Candidate ID: 10093
+Skills: Angular, SEO, Excel, Accounting, Kubernetes, Databricks
+Exp: 1.1y, Edu: M.E.
+Semantic Match: 0.0%
+- Notice: 150d, Resp: 46%, Active: 2026-03-21
+Summary: Professional with 1.1+ years of experience. I've spent my career in marketing manager roles, mostly 
+
+---
+Candidate ID: 10094
+Skills: Node.js, Content Writing, Redux, Airflow, GraphQL, Object Detection, Webpack, Six Sigma, SAP, JavaScript
+Exp: 3.8y, Edu: B.Tech
+Semantic Match: 0.0%
+- Notice: 120d, Resp: 26%, Active: 2026-03-25
+Summary: Professional with 3.8+ years of experience. My professional background is in marketing manager — I'v
+
+---
+Candidate ID: 10095
+Skills: SQL, PowerPoint, Photoshop, Tailwind, Apache Flink, Image Classification
+Exp: 11.0y, Edu: M.Sc
+Semantic Match: 0.0%
+- Notice: 30d, Resp: 37%, Active: 2025-10-01
+Summary: Professional with 11.0+ years of experience. I've spent my career in marketing manager roles, mostly
+
+---
+Candidate ID: 10096
+Skills: Content Writing, SEO, Redux, SQL, Sales, gRPC, Django, Terraform
+Exp: 6.0y, Edu: B.Sc
+Semantic Match: 0.0%
+- Notice: 150d, Resp: 12%, Active: 2026-02-28
+Summary: Professional with 6.0+ years of experience. I've spent my career in marketing manager roles, mostly 
+
+---
+Candidate ID: 10097
+Skills: Content Writing, MongoDB, Sales, Spark, Scrum, Apache Beam, Illustrator
+Exp: 5.5y, Edu: M.E.
+Semantic Match: 0.0%
+- Notice: 30d, Resp: 62%, Active: 2026-05-25
+Summary: Professional with 5.5+ years of experience. My professional background is in marketing manager — I'v
+
+---
+Candidate ID: 10098
+Skills: Java, BigQuery, Spark, Accounting, Kubernetes, TypeScript, Rust, HTML
+Exp: 3.6y, Edu: B.Tech
+Semantic Match: 25.0%
+- Notice: 90d, Resp: 42%, Active: 2025-12-13
+Summary: Professional with 3.6+ years of experience. I've spent my career in marketing manager roles, mostly 
+
+---
+Candidate ID: 10099
+Skills: Snowflake, gRPC, JavaScript, OpenCV, Go, PowerPoint
+Exp: 11.0y, Edu: B.Tech
+Semantic Match: 0.0%
+- Notice: 150d, Resp: 53%, Active: 2026-01-27
+Summary: Professional with 11.0+ years of experience. My professional background is in marketing manager — I'
+
+---
+Candidate ID: 10100
+Skills: GCP, Spring Boot, Kubeflow, Java, GANs, Figma, Elasticsearch, OpenCV, CNN, Azure
+Exp: 4.6y, Edu: B.E.
+Semantic Match: 0.0%
+- Notice: 120d, Resp: 40%, Active: 2026-04-29
+Summary: Software / data professional with 4.6 years of experience building data pipelines, backend systems, 
+
+---
+Candidate ID: 10101
+Skills: Recommendation Systems, Scrum, FastAPI, Hugging Face Transformers, AWS, Snowflake, Spring Boot, PostgreSQL, Kubeflow, Azure
+Exp: 2.0y, Edu: B.Tech
+Semantic Match: 0.0%
+- Notice: 90d, Resp: 56%, Active: 2026-01-19
+Summary: Software engineer with 2.0 years of experience across web, backend, and cloud systems. Strong fundam
+
+---
+Candidate ID: 10102
+Skills: Azure, Airflow, AWS, gRPC, Vue.js, dbt, Agile, PowerPoint, Content Writing, Project Management
+Exp: 1.1y, Edu: B.Sc
+Semantic Match: 0.0%
+- Notice: 60d, Resp: 16%, Active: 2025-10-28
+Summary: Professional with 1.1+ years of experience. My professional background is in marketing manager — I'v
+
+---
+Candidate ID: 10103
+Skills: React, Redux, Vue.js, Six Sigma, Spring Boot, Spark, Data Pipelines, GCP, Flask, Snowflake
+Exp: 1.1y, Edu: B.E.
+Semantic Match: 10.4%
+- Notice: 30d, Resp: 28%, Active: 2026-03-26
+Summary: Professional with 1.1+ years of experience. I'm a marketing manager with substantial experience in c
+
+---
+Candidate ID: 10104
+Skills: FAISS, BigQuery, React, OpenSearch, OpenCV, YOLO, SAP, SEO, REST APIs, GANs
+Exp: 8.4y, Edu: B.E.
+Semantic Match: 10.4%
+- Notice: 90d, Resp: 80%, Active: 2026-04-12
+Summary: Software engineer with 8.4 years of experience across web, backend, and cloud systems. Strong fundam
+
+---
+Candidate ID: 10105
+Skills: PyTorch, Content Writing, Weights & Biases, Qdrant, Sales, Figma, BigQuery, Computer Vision, Next.js, SEO
+Exp: 5.4y, Edu: Ph.D
+Semantic Match: 0.0%
+- Notice: 90d, Resp: 32%, Active: 2026-02-12
+Summary: Software engineer with 5.4 years of experience across web, backend, and cloud systems. Strong fundam
+
+---
+Candidate ID: 10121
+Skills: JavaScript, Python, Java, SQL, C++, React.js, Redux, HTML5, CSS3, Tailwind CSS
+Exp: 0.5y, Edu: Bachelor
+Semantic Match: 0.0%
+Summary: Computer Engineering student with hands-on experience in MERN stack development, authentication syst
