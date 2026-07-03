@@ -22,6 +22,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "http://hiresense-frontend.s3-website-ap-southeast-2.amazonaws.com",
+    "http://13.237.242.132:3000",
     process.env.CLIENT_URL
   ].filter(Boolean),
   credentials: true,

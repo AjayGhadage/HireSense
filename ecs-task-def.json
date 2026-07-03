@@ -1,0 +1,43 @@
+{
+  "family": "hiresense-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "executionRoleArn": "arn:aws:iam::555209622507:role/hiresenseEcsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::555209622507:role/hiresenseEcsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "hiresense-backend",
+      "image": "555209622507.dkr.ecr.ap-south-1.amazonaws.com/hiresense-backend:latest",
+      "portMappings": [
+        {
+          "containerPort": 5000,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        { "name": "NODE_ENV", "value": "production" },
+        { "name": "FRONTEND_URL", "value": "http://hiresense-frontend.s3-website-ap-southeast-2.amazonaws.com" },
+        { "name": "PORT", "value": "5000" }
+      ],
+      "secrets": [
+        { "name": "DB_HOST",     "valueFrom": "arn:aws:secretsmanager:ap-south-1:555209622507:secret:hiresense/db-kyqZZn:DB_HOST::" },
+        { "name": "DB_USER",     "valueFrom": "arn:aws:secretsmanager:ap-south-1:555209622507:secret:hiresense/db-kyqZZn:DB_USER::" },
+        { "name": "DB_PASSWORD", "valueFrom": "arn:aws:secretsmanager:ap-south-1:555209622507:secret:hiresense/db-kyqZZn:DB_PASSWORD::" },
+        { "name": "DB_NAME",     "valueFrom": "arn:aws:secretsmanager:ap-south-1:555209622507:secret:hiresense/db-kyqZZn:DB_NAME::" },
+        { "name": "DB_PORT",     "valueFrom": "arn:aws:secretsmanager:ap-south-1:555209622507:secret:hiresense/db-kyqZZn:DB_PORT::" },
+        { "name": "JWT_SECRET",  "valueFrom": "arn:aws:secretsmanager:ap-south-1:555209622507:secret:hiresense/app-EY16FI:JWT_SECRET::" }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/hiresense-backend",
+          "awslogs-region": "ap-south-1",
+          "awslogs-stream-prefix": "ecs",
+          "awslogs-create-group": "true"
+        }
+      }
+    }
+  ]
+}
